@@ -40,7 +40,7 @@ public class Main {
         int count = 10;
 
         for (int i = 0; i < count; i++) {
-            addFolderAndFileInFolder(folderName + i, fileName + i);
+            deleteFolderAndFileInFolder(folderName + i, fileName + i);
         }
     }
 }
