@@ -36,11 +36,11 @@ public class Main {
 
     public static void main(String[] args) {
         String folderName = "Farid";
-        String fileName="Abdullaev";
-        Integer count=10;
+        String fileName = "Abdullaev";
+        int count = 10;
 
         for (int i = 0; i < count; i++) {
-            addFolderAndFileInFolder(folderName+i,fileName+i);
+            addFolderAndFileInFolder(folderName + i, fileName + i);
         }
     }
 }
