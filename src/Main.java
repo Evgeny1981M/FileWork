@@ -7,7 +7,7 @@ public class Main {
             if (!folder.exists()) {
                 folder.mkdir();
             }
-            File file = new File(folder.getAbsolutePath() + "/" + fileName);
+            File file = new File(folder.getAbsolutePath() + "/" + fileName+".txt");
             if (!file.exists()) {
                 file.createNewFile();
             }
@@ -40,7 +40,7 @@ public class Main {
         int count = 10;
 
         for (int i = 0; i < count; i++) {
-            deleteFolderAndFileInFolder(folderName + i, fileName + i);
+            deleteFolderAndFileInFolder(folderName + i, fileName + i+".txt");
         }
     }
 }
